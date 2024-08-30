@@ -2,10 +2,14 @@
 print("Renan")
 print("Rio de Janeiro")
 
+
+
 #Exercicio 2
 filme = input("Qual o nome do filme favorito? ")
 data = input("Quando ele foi lançado? ")
 print(f"O seu filme favorito é {filme} e foi lançado em {data}")
+
+
 
 #Exercicio 3
 primeiroNumero = int(input("Digite o primeiro numero: "))
@@ -18,6 +22,10 @@ print("Soma: ", soma)
 print("Subtraçao: ", subtracao)
 print("Multiplicacao: ", multiplicacao)
 print("Divisao: ", divisao)
+
+
+
+
 #Exercicio 4
 temperatura = float(input("Qual a temperatura em Celsius: "))
 if temperatura < 15:
@@ -26,10 +34,16 @@ elif temperatura <= 30:
     print("Agradavel")
 else:
     print("Quente")
+
+
+
 #Exercicio 5
 for i in range(1, 11):
     if i % 2 == 0:
         print(i)
+
+
+
 
 #Exercicio 6
 soma = 0
@@ -38,6 +52,8 @@ while numero != 0:
     soma += numero
     numero = int(input("Digite um numero: "))
 print(f"A soma dos numeros digitados foi: {soma}")
+
+
 
 #Exercicio 7
 listaDeCompras = []
@@ -52,6 +68,7 @@ print("Lista de compras")
 print(listaDeCompras)
 
 
+
 #Exercicio 8
 def imparOuPar(num):
     if num % 2 == 0:
@@ -62,6 +79,9 @@ def imparOuPar(num):
 
 num = int(input("Digite um numero: "))
 print(imparOuPar(num))
+
+
+
 
 #Exercicio 9
 def contando(l, txt):
@@ -76,6 +96,8 @@ frase = input("Digite uma frase: ").upper()
 letra = input("Digite uma letra que voce quer contar apenas na frase: ").upper()
 qtdLetras = contando(letra, frase)
 print(f"A letra {letra} apareceu {qtdLetras} vezes na frase")
+
+
 
 #Exercicio 10
 
