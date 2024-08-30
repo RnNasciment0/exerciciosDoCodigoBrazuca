@@ -9,6 +9,8 @@ def factorial(n):
 numero = int(input('Digite um numero: '))
 print(f"O fatorial de {numero} é {factorial(numero)}")
 
+
+
 #Exercicio 2
 
 
@@ -21,11 +23,19 @@ def converter(temp):
 temperatura = float(input("Digite a temperatura em Celsius"))
 temperaturaKelvin, temperaturaFahrenheit = converter(temperatura)
 print(f"A temperatura {temperatura}ºC convertida para Fahrenheit é {temperaturaFahrenheit} e para Kelvin é {temperaturaKelvin} ")
+
+
+
+
 #Exercicio 3
 altura = float(input("Digite a altura em metros: "))
 peso = float(input("Digite o peso em Kg: "))
 imc = peso / (altura * altura)
 print(f"O seu imc é {imc}")
+
+
+
+
 #Exercicio 4
 
 
@@ -44,6 +54,10 @@ if resposta:
 else:
     print("Não é Palindromo!")
 
+
+
+
+
 #Exercicio 5
 def tabuada(num):
     for i in range(1, 11):
@@ -53,6 +67,9 @@ def tabuada(num):
 
 numero = int(input("Digite o numero que deseja saber a tabuada: "))
 tabuada(numero)
+
+
+
 
 
 #Exercicio 6
@@ -71,6 +88,9 @@ frase = input("Digite uma frase sem acentos: ")
 qtdVogais = contar(frase, VOGAIS)
 print("Nessa frase tem {} vogais".format(qtdVogais))
 
+
+
+
 #Exercicio 7
 
 def mediaDasNotas(sumNotas, qtd):
@@ -87,6 +107,9 @@ while nota != -1:
     nota = float(input("Digite uma nota do aluno: "))
 media = mediaDasNotas(somaDasNotas, qtdNotas)
 print(f"A media foi {media:.2f}")
+
+
+
 
 #Exercicio 8
 
@@ -114,6 +137,12 @@ for i in range(numero, 0, -1):
     listaFibonacci.append(num)
 listaFibonacci.reverse()
 mostrar(listaFibonacci)
+
+
+
+
+
+
 #Exercicio 9
 
 
@@ -125,6 +154,10 @@ def ordenar(list):
 digitos = list(map(float, input("Digite três numeros separados por espaço: ").split()))
 numerosOrdenados = ordenar(digitos)
 print(numerosOrdenados)
+
+
+
+
 #Exercicio 10
 
 
@@ -138,6 +171,12 @@ def parOuImpar(num):
 
 numero = float(input("Digite um numero: "))
 parOuImpar(numero)
+
+
+
+
+
+
 #Exercicio 11
 import math
 
@@ -149,6 +188,10 @@ def areaDoCirculo(raio):
 raio = float(input("Digite o raio do circulo: "))
 area = areaDoCirculo(raio)
 print(f"A area do circulo de raio {raio} é {area}")
+
+
+
+
 #Exercicio 12
 import random
 numeroSecreto = random.randint(1, 100)
@@ -162,12 +205,18 @@ while tentativa != numeroSecreto:
 print("Parabens você acertou o numero secreto")
 print(numeroSecreto)
 
+
+
+
 #Exercicio 13
 soma = 0
 for i in range(1, 101):
     if i % 2 == 0:
         soma += i
 print(soma)
+
+
+
 #Exercicio 14
 
 
@@ -189,6 +238,11 @@ segundoDigito = float(input("Digite o segundo digito: "))
 operacao = input("Escolha uma operação +, -, *, /: ")
 resultado = conta(primeiroDigito, segundoDigito, operacao)
 print(resultado)
+
+
+
+
+
 #Exercicio 15
 
 
@@ -203,10 +257,21 @@ numero = int(input("Digite um numero: "))
 somaAcumulada = somaDosNNumeros(numero)
 print(f"A soma é {somaAcumulada}")
 
+
+
+
+
+
+
 #Exercicio 16
 string = input("Digite uma string: ")
 stringInvertida = string[::-1]
 print(stringInvertida)
+
+
+
+
+
 
 
 #Exercicio 17
@@ -225,6 +290,12 @@ def verificar(num):
 numero = int(input("Digite um numero: "))
 verificar(numero)
 
+
+
+
+
+
+
 #Exercicio 18
 def contar(frs):
     return len(frs.split())
@@ -233,6 +304,11 @@ def contar(frs):
 frase =input("Digite uma frase: ")
 qtd = contar(frase)
 print("A frase digitada tem {} palavras".format(qtd))
+
+
+
+
+
 
 
 #Exercicio 19
@@ -245,6 +321,12 @@ segundaNota = float(input("Digite o segundo nota: "))
 terceiroNota = float(input("Digite o terceiro nota: "))
 media = mediaPonderada(primeiraNota, segundaNota, terceiroNota)
 print(f"A media foi {media:.2f}")
+
+
+
+
+
+
 #Exercicio 20
 
 
